@@ -1,0 +1,17 @@
+.food-items {
+    margin-top: 20px;
+}
+
+.food-items h1 {
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+.food-items-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+    row-gap: 50px;
+
+}
