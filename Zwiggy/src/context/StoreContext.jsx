@@ -5,7 +5,7 @@ import { createContext, useEffect, useState } from "react";
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
-    const url = 'http://localhost:5000';
+    const url = 'https://zwiggy-backend-mwl4.onrender.com';
     const [food_list, setFoodList] = useState([])
     const [token, setToken] = useState('')
 

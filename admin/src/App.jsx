@@ -7,7 +7,7 @@ import List from './pages/List/List'
 import Orders from './pages/Orders/Orders'
 import { ToastContainer } from 'react-toastify'
 const App = () => {
-  const url = 'http://localhost:5000';
+  const url = 'https://zwiggy-backend-mwl4.onrender.com';
   return (
     <div>
       <Navbar />
